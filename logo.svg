@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <style>
+      .gold{
+        fill:#B8924A;
+        stroke:#B8924A;
+      }
+      .white{
+        fill:#F8F8F8;
+      }
+      .line{
+        stroke:#B8924A;
+        stroke-width:2.5;
+        fill:none;
+      }
+      .title{
+        font-family:Georgia,"Times New Roman",serif;
+        font-size:44px;
+        letter-spacing:4px;
+      }
+      .subtitle{
+        font-family:Arial,sans-serif;
+        font-size:16px;
+        letter-spacing:6px;
+      }
+      .tag{
+        font-family:Arial,sans-serif;
+        font-size:13px;
+        letter-spacing:2px;
+      }
+    </style>
+  </defs>
+  <!-- Moldura -->
+  <rect
+      x="290"
+      y="50"
+      width="320"
+      height="320"
+      rx="4"
+      class="line"/>
+  <!-- Monograma -->
+  <text
+      x="395"
+      y="270"
+      font-size="180"
+      font-family="Georgia"
+      text-anchor="middle"
+      class="gold">
+      V
+  </text>
+  <text
+      x="505"
+      y="270"
+      font-size="180"
+      font-family="Georgia"
+      text-anchor="middle"
+      class="white">
+      M
+  </text>
+  <!-- Nome -->
+  <text
+      x="450"
+      y="430"
+      text-anchor="middle"
+      class="title white">
+      VALENÇA &amp; MONTEIRO
+  </text>
+  <!-- Linhas -->
+  <line x1="120" y1="470" x2="300" y2="470" class="line"/>
+  <line x1="600" y1="470" x2="780" y2="470" class="line"/>
+  <!-- Subtítulo -->
+  <text
+      x="450"
+      y="478"
+      text-anchor="middle"
+      class="subtitle gold">
+      ADVOGADOS ASSOCIADOS
+  </text>
+  <!-- Slogan -->
+  <text
+      x="450"
+      y="520"
+      text-anchor="middle"
+      class="tag white">
+      EXCELÊNCIA JURÍDICA • ESTRATÉGIA • RESULTADOS
+  </text>
+  <!-- Balança -->
+  <g transform="translate(450 575)">
+      <!-- haste -->
+      <line x1="0" y1="-28" x2="0" y2="20" class="line"/>
+      <!-- barra -->
+      <line x1="-32" y1="-20" x2="32" y2="-20" class="line"/>
+      <!-- cabos -->
+      <line x1="-24" y1="-20" x2="-38" y2="-2" class="line"/>
+      <line x1="24" y1="-20" x2="38" y2="-2" class="line"/>
+      <!-- pratos -->
+      <path d="M-48 0 L-28 0 L-38 14 Z" class="line"/>
+      <path d="M28 0 L48 0 L38 14 Z" class="line"/>
+      <!-- base -->
+      <line x1="-16" y1="20" x2="16" y2="20" class="line"/>
+  </g>
+</svg>
